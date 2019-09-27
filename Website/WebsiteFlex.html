@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Killer Instinct</title>
+        <meta name="viewport"content="width=device-width, initial-scale=1">
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            .header {
+                padding: 60px;
+                text-align: center;
+                background:rgb(26, 49, 71);
+                color: white;
+            }
+
+            .navbar {
+                display: flex;
+                background-color:violet; 
+            }
+
+            .navbar a {
+                color:darkviolet;
+                padding:14px 20px;
+                text-align: center;
+                
+            }
+
+            .navbar a:hover {
+                background-color: darkviolet;
+                color:violet;
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .news {
+                display: flex;
+                flex-wrap:wrap;
+                flex-direction: row;
+            }
+
+            .left-side-bar {
+                flex: 30%;
+                background-color:mediumpurple;
+                padding: 20px;
+            }
+
+            .main {
+
+                flex: 70%;
+                background-color: lavender;
+                padding: 20px;
+                color:rgb(26, 49, 71)
+            }
+
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: rgb(26, 49, 71);
+            }
+
+            @media screen and (max-width: 700px) {
+                .row, .navbar {
+                    flex-direction: column;
+                }
+            }
+
+            </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Killer Instinct</h1>
+        </div>
+
+        <div class="navbar">
+
+            <a href="#">Tournaments</a>
+            <a href="#">Forums</a>
+            <a href="#">Help</a>            
+            <a href="#">Search</a>
+            
+        </div>
+
+        <div class="row">
+            <div class="left-side-bar">
+                <h2>Jago</h2>
+                <h5>The latest character</h5>
+                <img src="images (1).jpeg">
+                <p>Access the entire Killer Instinct universe in this definitive edition packed with content from all three seasons. Every character is here—...</p>
+                <h3>Next characters</h3>
+                <p>Also included are every song and character trailer in the Killer Instinct archives, never-before-seen...</p>
+                <img src="images (2).jpeg"> <br>
+                <img src="images (3).jpeg"> <br>
+                <img src="images (4).jpeg"> <br>
+
+            </div>
+
+            <div class="main">
+                <h2>ORIGIN</h2>
+                <h5>Dec 7, 2017</h5>
+                <img src="images (16).jpeg" style="height:200px;">
+                <p>PCK WRAP UP</p>
+                <p>Posted by Sam - 11/7/2018
+                        Now that the dust has had time to settle post tournaments, we’d like to take some time and reflect back on PCK’s Online Tournaments. After undertaking the running of the tournament, PCK has some words he’d like to share so without further ado, here’s Pharroh:   Pharroh’s Combo Killers would...</p>
+                <br>
+                <div class="row">
+                    
+                </div>
+                <h2>PATCH NOTES 3.9.13</h2>
+                <h5>Posted by Sam - 8/16/2018</h5>
+            
+                <img src="KI_PatchNotes_1920x10801-300x169.jpg">
+                        
+            <p>Happy Thursday everyone! A patch was pushed out this morning and I know everyone is wondering, “What did this patch do??” and I’m here to give you the run-down. Ready? Good. Here we go!   Character Gameplay: Combo Breaker advantage time for Sabrewulf is 0 (was -7). Combo Breaker advantage...</p>
+            </div>
+
+        </div>
+
+        <div class="footer" style="color: white">
+                <h2>©2019 Microsoft Corporation. All rights reserved.    Terms of Use | Privacy Policy</h2>
+              </div>
+    </body>
+</html>
