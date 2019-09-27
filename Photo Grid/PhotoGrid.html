@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            padding: 35px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Killer Instinct Responsive Gallery</h1>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="images.jpeg">
+            <img src="images (15).jpeg">
+            <img src="images (14).jpeg">
+            <img src="download.jpeg">
+            <img src="images (12).jpeg">
+
+        </div>
+
+        <div class="column">
+            <img src="images (11).jpeg">
+            <img src="images (10).jpeg">
+            <img src="images (9).jpeg">
+            <img src="images (8).jpeg">
+            <img src="images (7).jpeg">
+        </div>
+
+        <div class="column">
+            <img src="images (6).jpeg">
+            <img src="images (5).jpeg">
+            <img src="images (4).jpeg">
+            <img src="images (3).jpeg">
+            <img src="images (2).jpeg">
+        </div>
+
+        <div class="column">
+            <img src="images (1).jpeg">
+            <img src="download (1).jpeg">
+            <img src="download (2).jpeg">
+            <img src="download (3).jpeg">
+
+
+        </div>
+    </div>
+
+</body>
+
+
+</html>
