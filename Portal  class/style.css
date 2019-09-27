@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    border-color: mediumpurple;
+    width:100%;
+}
+
+td,
+th,
+tr {
+    color: indigo;
+    border: 1px solid indigo;
+}
+
+tr:nth-child(even) {
+    background-color: lavender;
+}
+
+tr:first-of-type {
+    background-color: mediumpurple;
+}
+
+.div_titulo {
+    background-color: mediumpurple;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+.div-search {
+    padding-bottom: 10px;
+}
+
+input[type=text]{
+    color:silver;
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end: 10px;
+}
